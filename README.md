@@ -71,4 +71,5 @@ output of `bin/gamescope-display-switch --status` from the plugin folder
 
 ## License
 
-MIT
+MIT. Parts that come from Decky's plugin template keep its BSD 3-Clause license; both are in
+[LICENSE](LICENSE).
