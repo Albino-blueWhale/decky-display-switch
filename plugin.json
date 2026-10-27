@@ -1,0 +1,11 @@
+{
+  "name": "Display Switch",
+  "author": "Albino-blueWhale",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["display", "tv", "laptop", "gamescope"],
+    "description": "Switch Game Mode between a laptop's built-in screen and a TV, projector or monitor.",
+    "image": "https://opengraph.githubassets.com/1/Albino-blueWhale/decky-display-switch"
+  }
+}
