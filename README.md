@@ -22,6 +22,12 @@ bundles, so nothing else needs installing.
   set to a friend's TV), Game Mode starts on the built-in screen instead. It runs as a user
   service before each Game Mode start, so it needs no root.
 
+**Which GPU do games use on the built-in screen?** Game Mode itself runs on the integrated GPU
+there, but games can still render on the dedicated one. On Bazzite, **cardwire**'s Hybrid mode
+(the default) already sends every game to the dedicated GPU, so there's nothing to set up. See
+the [CLI's README](https://github.com/Albino-blueWhale/gamescope-display-switch#known-limits)
+for other systems.
+
 The plugin runs as your user, not as root. Switching restarts just the Game Mode session, and
 SDDM (with `Relogin=true`, as on Bazzite) logs straight back in.
 
