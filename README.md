@@ -69,6 +69,13 @@ Reports from other machines are very welcome: open an issue with your laptop mod
 output of `bin/gamescope-display-switch --status` from the plugin folder
 (`~/homebrew/plugins/decky-display-switch`).
 
+## How this was made
+
+This plugin was written with the help of an AI coding assistant (Claude, by Anthropic), directed,
+tested and maintained by me on my own laptop. Commits credit it as a co-author. Because of that,
+it isn't eligible for the Decky plugin store, which doesn't accept LLM-written code; install it
+from the release as described above.
+
 ## License
 
 MIT. Parts that come from Decky's plugin template keep its BSD 3-Clause license; both are in
